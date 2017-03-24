@@ -1,0 +1,43 @@
+##############################
+HUBWAY <-> DELOITTE NEXT STEPS
+##############################
+
+
+*******************
+PREDICTIVE MODELING
+*******************
+
+
+.. figure:: ./images/start_pred.png
+
+`Fraction error of arriving bikes`
+
+.. figure:: ./images/end_pred.png
+
+`Fraction error of departing bikes`
+
+.. figure:: ./images/rate_error.png
+
+`Fraction error of rate diffrence`
+
+
+***************************
+INTEGRATIONS AND EXTENSIONS
+***************************
+
+1 Strava
+    * Leverage existing partnership with city of Boston and other major cities to provide high resolution data
+      on bike routes and usage for future infastructure development
+    * Valuable accident and safety information
+2 Hubway 
+    * Build real time alerting of hub station capacity into app to help users protect against showing up at a full station as a safety net
+
+************************
+PRODUCTION VISUALIZATION
+************************
+
+Leverage `mbtaviz <http://mbtaviz.github.io/>`_ framework for a next generation web and app based interactive diagnostic tool
+
+.. raw:: html
+
+    <iframe src="http://mbtaviz.github.io" height="345px" width="175%"></iframe>
